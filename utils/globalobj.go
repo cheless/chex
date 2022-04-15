@@ -3,6 +3,7 @@ package utils
 import (
 	"encoding/json"
 	"io/ioutil"
+
 	"github.com/cheless/chex/ziface"
 )
 
@@ -30,7 +31,7 @@ var Global *GlobalObj
 func (g *GlobalObj) Reload() {
 	data, err := ioutil.ReadFile("../conf/zinx.json")
 	if err != nil {
-		panic(err)
+		return
 	}
 	// 将json数据解析到struct中
 	// fmt.Printf("json :%s\n", data)

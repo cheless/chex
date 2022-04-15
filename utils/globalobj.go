@@ -3,7 +3,7 @@ package utils
 import (
 	"encoding/json"
 	"io/ioutil"
-	"zinx/ziface"
+	"github.com/cheless/chex/ziface"
 )
 
 /*

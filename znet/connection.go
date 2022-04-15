@@ -6,8 +6,8 @@ import (
 	"io"
 	"net"
 	"sync"
-	"zinx/utils"
-	"zinx/ziface"
+	"github.com/cheless/chex/utils"
+	"github.com/cheless/chex/ziface"
 )
 
 /*

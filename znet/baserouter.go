@@ -1,6 +1,6 @@
 package znet
 
-import "zinx/ziface"
+import "github.com/cheless/chex/ziface"
 
 // 实现 router 时，先嵌入 BaseRouter 基类，根据需求对该基类进行部分或全部重写
 type BaseRouter struct{}

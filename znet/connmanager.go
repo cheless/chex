@@ -3,7 +3,7 @@ package znet
 import (
 	"fmt"
 	"sync"
-	"zinx/ziface"
+	"github.com/cheless/chex/ziface"
 )
 
 type ConnManager struct {
